@@ -1,6 +1,8 @@
 spring:
   application:
     name: wx-ai-agent
+  profiles:
+    active: local   # 默认加载的配置文件
 
 server:
   port: 8001
